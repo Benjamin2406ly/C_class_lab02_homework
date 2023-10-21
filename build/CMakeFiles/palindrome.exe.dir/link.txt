@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\palindrome.exe.dir/objects.a
+C:\Users\53469\mingw\mingw64\bin\ar.exe qc CMakeFiles\palindrome.exe.dir/objects.a @CMakeFiles\palindrome.exe.dir\objects1.rsp
+C:\Users\53469\mingw\mingw64\bin\gcc.exe  -pipe -std=c99 -g -Wl,--whole-archive CMakeFiles\palindrome.exe.dir/objects.a -Wl,--no-whole-archive -o palindrome.exe.exe -Wl,--out-implib,libpalindrome.exe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\palindrome.exe.dir\linkLibs.rsp

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/vscode/C_class_lab02_homework/build",
+  "command": "C:\\Users\\53469\\mingw\\mingw64\\bin\\gcc.exe -DDEBUG -DREAL_COOL_ENGINEER @CMakeFiles/palindrome.exe.dir/includes_C.rsp  -pipe -std=c99 -g -std=gnu99 -o CMakeFiles\\palindrome.exe.dir\\src\\main.c.obj -c C:\\vscode\\C_class_lab02_homework\\src\\main.c",
+  "file": "C:/vscode/C_class_lab02_homework/src/main.c",
+  "output": "CMakeFiles/palindrome.exe.dir/src/main.c.obj"
+},
+{
+  "directory": "C:/vscode/C_class_lab02_homework/build",
+  "command": "C:\\Users\\53469\\mingw\\mingw64\\bin\\gcc.exe -DDEBUG -DREAL_COOL_ENGINEER @CMakeFiles/palindrome.exe.dir/includes_C.rsp  -pipe -std=c99 -g -std=gnu99 -o CMakeFiles\\palindrome.exe.dir\\src\\palindrome.c.obj -c C:\\vscode\\C_class_lab02_homework\\src\\palindrome.c",
+  "file": "C:/vscode/C_class_lab02_homework/src/palindrome.c",
+  "output": "CMakeFiles/palindrome.exe.dir/src/palindrome.c.obj"
+}
+]
