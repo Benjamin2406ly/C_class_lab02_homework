@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "palindrome.exe.exe"
+			"path" : "main.exe"
 		},
 		{
-			"path" : "palindrome.exe.pdb"
+			"path" : "main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -89,7 +89,7 @@
 			]
 		}
 	],
-	"id" : "palindrome.exe::@6890427a1f51a3e7e1df",
+	"id" : "main::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -109,8 +109,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "palindrome.exe",
-	"nameOnDisk" : "palindrome.exe.exe",
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
 	"paths" : 
 	{
 		"build" : ".",

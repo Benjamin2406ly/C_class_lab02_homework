@@ -26,7 +26,7 @@ C:/vscode/C_class_lab02_homework/build/CMakeFiles/ContinuousTest.dir
 C:/vscode/C_class_lab02_homework/build/CMakeFiles/ContinuousCoverage.dir
 C:/vscode/C_class_lab02_homework/build/CMakeFiles/ContinuousMemCheck.dir
 C:/vscode/C_class_lab02_homework/build/CMakeFiles/ContinuousSubmit.dir
-C:/vscode/C_class_lab02_homework/build/CMakeFiles/palindrome.exe.dir
+C:/vscode/C_class_lab02_homework/build/CMakeFiles/main.dir
 C:/vscode/C_class_lab02_homework/build/CMakeFiles/package.dir
 C:/vscode/C_class_lab02_homework/build/CMakeFiles/package_source.dir
 C:/vscode/C_class_lab02_homework/build/CMakeFiles/test.dir

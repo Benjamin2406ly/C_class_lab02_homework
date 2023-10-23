@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\vscode\C_class_lab02_homework\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/palindrome.exe.dir/all
+all: CMakeFiles/main.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -98,7 +98,7 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/palindrome.exe.dir/clean
+clean: CMakeFiles/main.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -830,30 +830,30 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/palindrome.exe.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/palindrome.exe.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode\C_class_lab02_homework\build\CMakeFiles --progress-num=1,2,3 "Built target palindrome.exe"
-.PHONY : CMakeFiles/palindrome.exe.dir/all
+CMakeFiles/main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode\C_class_lab02_homework\build\CMakeFiles --progress-num=1,2,3 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/palindrome.exe.dir/rule: cmake_check_build_system
+CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode\C_class_lab02_homework\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/palindrome.exe.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode\C_class_lab02_homework\build\CMakeFiles 0
-.PHONY : CMakeFiles/palindrome.exe.dir/rule
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-palindrome.exe: CMakeFiles/palindrome.exe.dir/rule
-.PHONY : palindrome.exe
+main: CMakeFiles/main.dir/rule
+.PHONY : main
 
 # clean rule for target.
-CMakeFiles/palindrome.exe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/clean
-.PHONY : CMakeFiles/palindrome.exe.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

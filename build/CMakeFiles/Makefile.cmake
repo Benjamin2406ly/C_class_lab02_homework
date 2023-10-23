@@ -82,5 +82,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
-  "CMakeFiles/palindrome.exe.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   )

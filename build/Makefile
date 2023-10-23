@@ -510,24 +510,24 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named palindrome.exe
+# Target rules for targets named main
 
 # Build rule for target.
-palindrome.exe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 palindrome.exe
-.PHONY : palindrome.exe
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-palindrome.exe/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/build
-.PHONY : palindrome.exe/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -535,7 +535,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -543,7 +543,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/palindrome.obj: src/palindrome.c.obj
@@ -551,7 +551,7 @@ src/palindrome.obj: src/palindrome.c.obj
 
 # target to build an object file
 src/palindrome.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/src/palindrome.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/palindrome.c.obj
 .PHONY : src/palindrome.c.obj
 
 src/palindrome.i: src/palindrome.c.i
@@ -559,7 +559,7 @@ src/palindrome.i: src/palindrome.c.i
 
 # target to preprocess a source file
 src/palindrome.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/src/palindrome.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/palindrome.c.i
 .PHONY : src/palindrome.c.i
 
 src/palindrome.s: src/palindrome.c.s
@@ -567,7 +567,7 @@ src/palindrome.s: src/palindrome.c.s
 
 # target to generate assembly for a file
 src/palindrome.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\palindrome.exe.dir\build.make CMakeFiles/palindrome.exe.dir/src/palindrome.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/palindrome.c.s
 .PHONY : src/palindrome.c.s
 
 # Help Target
@@ -609,7 +609,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... palindrome.exe
+	@echo ... main
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
