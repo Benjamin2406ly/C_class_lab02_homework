@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Win32-mingw32-make"
-	BuildStamp="20231022-0152-Experimental"
+	BuildStamp="20231023-0505-Experimental"
 	Name="Benjamin2406ly"
 	Generator="ctest-3.27.5"
 	CompilerName="C:/Users/53469/mingw/mingw64/bin/g++.exe"
@@ -18,17 +18,17 @@
 	ProcessorCacheSize="64"
 	NumberOfLogicalCPU="16"
 	NumberOfPhysicalCPU="8"
-	TotalVirtualMemory="17271"
+	TotalVirtualMemory="17260"
 	TotalPhysicalMemory="16236"
 	LogicalProcessorsPerPhysical="2"
 	ProcessorClockFrequency="3193"
 	>
 	<Testing>
-		<StartDateTime>Oct 22 19:38 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</StartDateTime>
-		<StartTestTime>1697974704</StartTestTime>
+		<StartDateTime>Oct 23 13:05 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</StartDateTime>
+		<StartTestTime>1698037509</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 22 19:38 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</EndDateTime>
-		<EndTestTime>1697974704</EndTestTime>
+		<EndDateTime>Oct 23 13:05 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</EndDateTime>
+		<EndTestTime>1698037509</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

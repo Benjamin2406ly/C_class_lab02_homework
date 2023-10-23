@@ -51,25 +51,28 @@ void center_extension(char* arr, int len) {
 }
 
 void manacher(char* arr, int len) {
-    // 预处理字符串，使用#和^作为标记
-    int newLen = 2 * len + 1;
+    // 预处理字符串，使用^作为标记,排除奇偶差异
+    int newLen = 2 * len + 2;
     char *t = (char *)malloc(newLen);
     t[0] = '^';
     t[newLen - 1] = '\0';
+    t[newLen - 2] = '^';
     for (int i = 0; i < len; ++i) {
         t[2 * i + 1] = arr[i];
-        t[2 * i + 2] = '#';
+        t[2 * i + 2] = '^';
     }
 
-    // P:辅助数组,C:中心,R:右边界
+    // P:用于存储以每个字符为中心的最长回文子串的半径,C:中心,R:右边界
     int P[newLen];
     int C = 0, R = 0;
 
     // 遍历字符串，寻找最长回文子串
     for (int i = 1; i < newLen - 1; ++i) {
-        int mirror = 2 * C - i;
-        P[i] = (i < R) ? (R - i < P[mirror] ? R - i : P[mirror]) : 0;
-
+        int mirror = 2 * C - i;                                          // mirror:i关于C的镜像
+        P[i] = (i < R) ? (R - i < P[mirror] ? R - i : P[mirror]) : 0;    // 选择R-i和P[mirror]中的较小者，原因如下
+        //mirror的回文子串完全在C的最长回文子串内部：这种情况下，i的回文子串和mirror的回文子串是一样长的。我们可以直接将P[i]设置为P[mirror]，并且不需要进一步的检查，因为在C的最长回文子串内部，i和mirror是完全对称的。
+        //mirror的回文子串延伸到了C的最长回文子串的左边界：这种情况下，i的回文子串可能会延伸到R之外。我们无法直接使用P[mirror]，因为这将导致i的回文子串越过R。在这种情况下，我们将P[i]初始化为R - i，然后再尝试进行中心扩展
+        
         // 中心扩展
         while (t[i + 1 + P[i]] == t[i - 1 - P[i]]) {
             P[i]++;
@@ -93,6 +96,7 @@ void manacher(char* arr, int len) {
     }
 
     // 复原最长回文子串
+    printf("\n The elements of the longest palindrome array are: ");
     for (int i = centerIndex - maxLen + 1; i <= centerIndex + maxLen - 1; i += 2) {
         printf("%c", arr[i / 2]);
     }
